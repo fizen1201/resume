@@ -4,6 +4,10 @@
   Version: 1.0
   URL: http://themeforest.net/user/divine-store/
 */
+$('#backend').click(function() {
+     Snackbar.show({text: 'Sorry this Feature is available on my Heroku Website', duration: 4000});
+  });
+
 $(window).scroll(function() {
   if ($(document).scrollTop() > 200) {
     $(".btn-dark").css("display", "flex");
